@@ -27,6 +27,7 @@ const Login = () => {
 
         if (data.success) {
           setIsLoggedin(true)
+          toast.(data.message)
           getUserData()
           navigate('/')
         } else {
