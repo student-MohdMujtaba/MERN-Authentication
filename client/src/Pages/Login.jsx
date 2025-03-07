@@ -41,7 +41,7 @@ const Login = () => {
           getUserData()
           navigate('/')
         } else {
-          toast.error(message)
+          toast.error(error.message)
         }
 
       }
